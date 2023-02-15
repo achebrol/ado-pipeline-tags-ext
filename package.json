@@ -1,0 +1,24 @@
+{
+  "name": "ado-pipeline-tags-ext",
+  "version": "1.0.0",
+  "description": "![Chrome](https://icons.iconarchive.com/icons/xenatt/the-circle/24/App-Chrome-icon.png) <img src=\"https://chrome-stats.com/logo-1280.svg\" alt=extension width=24> \r # ADO Pipeline List - Show Tags",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achebrol/ado-pipeline-tags-ext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achebrol/ado-pipeline-tags-ext/issues"
+  },
+  "homepage": "https://github.com/achebrol/ado-pipeline-tags-ext#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.16",
+    "chrome-types": "^0.1.171"
+  }
+}
