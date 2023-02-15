@@ -46,7 +46,7 @@ function waitForChildElements(
  */
 function extractBuildIds(builds: HTMLAnchorElement[]): string[] {
   return $.map(builds, function (val) {
-    let url = val.href;
+    let url = val.href || '';
     let arr = url.split('buildId=');
     return arr.length > 1 ? arr[1] : '';
   });
